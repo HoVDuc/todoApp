@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', sans-serif;
+    
+}
+
+body {
+    background-image: url("../75162477_p0_master1200.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    z-index: 1;
+}
+
+a.bg {
+    background-color: #000643;
+    color: white;
+    opacity: 90%;
+    padding: 15px 30px;
+    margin-top: 400px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 48px;
+}
+
+
+.jumbotron {
+    text-align: center;
+}
+
+.text-content {
+    padding: 20px;
+    margin-top: 150px;
+    text-align: left;
+    transform: translate(0 33);
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}

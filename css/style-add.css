@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.b-example-divider {
+    flex-shrink: 0;
+
+}
+
+.b-example-divider h1 {
+    padding: 20px;
+}
+
+.b-example-divider form {
+    padding: 20px;
+}
+
+.input-t {
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 90vh;
+    margin-left: 15px;
+}
+
+input[type=date] {
+    width: 40%;
+    border: 0;
+    border-bottom: 1px solid black;
+}
